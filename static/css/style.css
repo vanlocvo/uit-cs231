@@ -1,0 +1,130 @@
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+.navbar-nav > li {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+img#logo {
+  height: 50px;
+}
+
+@font-face {
+  font-family: customfont;
+  src: url(/static/font/consola/consola.ttf);
+}
+
+html {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.font {
+  font-family: customfont;
+}
+
+body {
+  width: 100wh;
+  height: 90vh;
+  color: #fff;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@-moz-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.container1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+@media only screen and (max-width: 991px) {
+  .container1 {
+    margin-top: 200px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .container1 {
+    margin-top: 100px;
+  }
+}
+.frame {
+  width: 75%;
+  height: 90%;
+  border-radius: 12px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 40px;
+  padding-left: 50px;
+}
+
+.imagearea {
+  width: 100%;
+  height: 90%;
+  border-style: dashed;
+  border-radius: 12px;
+  border-width: 5px;
+  border-color: rgb(87, 87, 87);
+}
+
+.title {
+  margin-bottom: 10px;
+  font-size: 32px;
+  color: #ff2f41;
+}
+
+.btn1 {
+  margin-top: 10px;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+  border-radius: 12px;
+}

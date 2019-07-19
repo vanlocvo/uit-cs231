@@ -1,0 +1,5 @@
+Python3
+
+pip install Flask
+pip install Flask-Dropzone
+pip install Flask-Uploads
